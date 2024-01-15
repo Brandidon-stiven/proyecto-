@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="{{ asset ('css/modulos.css') }}">
+    <link rel="stylesheet" href="{{ asset ('css/app.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+    <!-- Navegacion -->
+    
+
+
+    <div id="inicio" class="color">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+        <img src="{{ asset('img/Sin título-2.png') }}" class="logopng" alt="Logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#modulos">MODULOS</a>
+            </ul>
+            <div class="d-flex">
+
+                <a href=><button class="btn btn-success">CERRAR SESION</button></a>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- MODULO -->
+    <div id="modulos" class="modulos">
+        <div class="text-xl-center">
+            <h3>MODULOS</h3>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="row-modulos">
+   
+            <div class="col text-center">
+              <div style="background-color: #66be32;" class="card h-100" >
+                <img src="{{ asset('img/WhatsApp Image 2023-11-16 at 22.08.26.jpeg') }}" class="img1" alt="">  
+                <div class="card-body">
+                  <button class="card-title">AGRICOLA</button>
+                </div>
+              </div>
+            </div>
+            <div class="col text-center">
+              <div  style="background-color: #66be32;" class="card h-100">
+              <img src="{{ asset('img/WhatsApp Image 2023-11-16 at 22.08.46.jpeg') }}" class="img2" alt="">
+                <div class="card-body">
+                  <button class="card-title">INVENTARIO</button>
+                </div>
+              </div>
+            </div>
+            <div   class="col text-center">
+              <div  style="background-color: #66be32;" class="card h-100">
+                <img src="{{ asset('img/WhatsApp Image 2023-11-16 at 22.09.10.jpeg') }}" class="img3" alt="">
+                <div class="card-body">
+                  <button class="card-title">MANTENIMIENTO</button>
+                </div>
+              </div>
+            </div>
+            <div  class="col text-center">
+              <div  style="background-color: #66be32;" class="card h-100">
+                <img src="{{ asset('img/WhatsApp Image 2023-11-16 at 22.09.36.jpeg') }}" class="img4" alt="">
+                <div class="card-body">
+                  <button class="card-title">COMPRA Y VENTA</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+<!-- FOOTER -->
+
+<footer class="row" id="row-pie">
+    <div class="container">
+      <div class="row">
+
+        
+
+        <div class=" col grupo2 text-center">
+          <a href="https://www.facebook.com/"><img src="./resourse/img/icono-facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/"><img src="./resourse/img/icono-instagram.png" alt="Instagram"></a>
+          <a href="https://twitter.com/"><img src="./resourse/img/tiwitter-icono.png" alt="Twitter"></a>
+          
+
+        </div>
+
+        
+
+
+      </div> 
+
+
+
+
+    </div>
+
+    <div class="pie-bajo">
+      <p class="text-center"> &copy; 2023 Copyright <a href="#row-contacto">Generado por: AGROLINE</a> </p>
+    </div>
+
+
+  </footer>
+
+ 
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
